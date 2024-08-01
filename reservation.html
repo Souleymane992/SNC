@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reservation.css">
+        <link rel="stylesheet" href="style1.css">
+        <script>
+            function showconfirmation(){
+                document.getElementById("confirmationModal").style.display="block";
+                }
+            function gotohomepage(){
+                 window.location.href="Acceuil.html";
+                }
+        </script>
+    </head>
+    <body>
+        <marquee bgcolor="gray">
+            <img src="Logo.png" alt="logo de la snc">
+        </marquee>
+        <h2>Merci de reserver dans notre hotel</h2>
+        <fieldset>
+            <legend>Reservation d'hotel</legend>
+            <form>
+                 <p> NOM</p>
+                <input type="text" name="firstname"><br><br>
+                 <p> PRENOMS</p>
+                <input type="text" name="lasttname"><br><br>
+                <p> Email</p>
+                <input type="mail" name="email"><br><br>
+                 <p>TELEPHONE</p>
+                 <input type="text" name="number"><br><br>
+                 <p>Hotel</p>
+                 <select>
+                     <option value="Dioulassoba" selected="selected">Dioulassoba</option>
+                     <option value="Wifama">Wifama</option>
+                     <option value="Villa Rose">Villa Rose</option>
+                    <option value="Ran">Ran</option>
+                    <option value="Pacific">Pacific</option>
+                    <option value="Auberge">Auberge</option>
+                    <option value="Mermoz">Mermoz</option>
+                    <option value="Sissiman">Sissiman</option>
+                    <option value="Relax">Relax</option>
+                    <option value="Novah">Novah</option>
+                </select><br>
+                <p> Nombre de chambre</p>
+                 <input type="number" name="chambre"><br><br>
+                 <p>Date d'entré</p>
+                  <input type="date" name="indate"><br><br>
+                  <p>Date de sortie</p>
+                  <input type="date" name="outdate"><br><br>
+                  <p>Moyen de Payement</p>
+                  <select>
+                      <option value="Orange" selected="selected">Orange Money</option>
+                      <option value="Moov">Moov Money</option>
+                      <option value="Ligdi">Ligdicash</option>
+                     <option value="Coris">Coris Money</option>
+                     <option value="Western">Western Union</option>
+                 </select>
+                 <input type="submit">
+            </form>
+        </fieldset>
+        <style>
+            fieldset{
+                margin-left: 250px;
+                margin-right: 250px;
+            }
+        </style>
+         <footer>
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Notre adresse</h3>
+                    <p>Secrétariat Technique de la SNC</p>
+                    <h3>Tel: 20 98 02 35</h3>
+                </div>
+                <div class="footer-section links">
+                    <h3>Liens Utiles</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="Historique.html">Historique</a></li>
+                        <li><a href="hotel.html">Hotel</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="http://www.rtb.bf">www.rtb.bf</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section social">
+                    <h3>Suivez-nous</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/groups/2729663757199323/"><img src="facebook.png" alt="Facebook"></a></li>
+                        <li><a href="https://twitter.com/sncbobo"><img src="x.png" alt="Twitter"></a></li>
+                        <li><a href="https://instagram.com/snc.bobo?igshid=YmMyMTA2M2Y="><img src="insta.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section creators">
+                    <h3>Auteurs</h3>
+                    <div class="creator">
+                        <img src="souleymane.jpg" alt="BARRO M. Souleymane">
+                        <p>BARRO M. Souleymane<br>Etudiant en premiere année de Licence en Informatique</p>
+                    </div>
+                    <div class="creator">
+                        <img src="gloria.jpg" alt="KAMBOU Cherifa Gloria">
+                        <p>KAMBOU C. Gloria<br>Etudiante en premiere année de Licence en Informatique</p>
+                    </div>
+                    <div class="creator">
+                        <img src="abibata.jpg" alt="OUEDRAOGO Abibata">
+                        <p>OUEDRAOGO Abibata<br>Etudiante en premiere année de Licence en Informatique</p>
+                    </div>
+                    <div class="creator">
+                        <img src="magloire.jpg" alt="PALE S. E. Magloire">
+                        <p>PALE S. E. Magloire<br>Etudiant en premiere année de Licence en Informatique</p>
+                    </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 SNC | Tous droits réservés aux étudiants de l'Ecole Supérieure d'Informatique
+        </div>
+    </footer>
+    </body>
+</html>
